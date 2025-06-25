@@ -1,42 +1,58 @@
-# ✨ Full Stack Realtime Chat App ✨
+# 
+# 💬 Chat App
 
-![Demo App](/frontend/public/screenshot-for-readme.png)
+A full-stack real-time chat application built with the MERN stack (MongoDB, Express, React, Node.js) and Socket.io.
 
-[Video Tutorial on Youtube](https://youtu.be/ntKkVrQqBYY)
+---
 
-Highlights:
+## 🚀 Features
 
-- 🌟 Tech stack: MERN + Socket.io + TailwindCSS + Daisy UI
-- 🎃 Authentication && Authorization with JWT
-- 👾 Real-time messaging with Socket.io
-- 🚀 Online user status
-- 👌 Global state management with Zustand
-- 🐞 Error handling both on the server and on the client
-- ⭐ At the end Deployment like a pro for FREE!
-- ⏳ And much more!
+- ✅ User authentication (Signup/Login)
+- ✅ Real-time messaging with Socket.io
+- ✅ Profile picture upload with Cloudinary
+- ✅ JWT-based secure authentication
+- ✅ Protected routes
+- ✅ Online/offline status
+- ✅ Toast notifications
+- ✅ Mobile responsive UI
+- ✅ Hosted on Render (Frontend + Backend)
 
-### Setup .env file
+---
 
-```js
-MONGODB_URI=...
-PORT=5001
-JWT_SECRET=...
+## 🔗 Live Demo
 
-CLOUDINARY_CLOUD_NAME=...
-CLOUDINARY_API_KEY=...
-CLOUDINARY_API_SECRET=...
+- 🌐 Frontend: [https://chat-app-frontend-8pmh.onrender.com](https://chat-app-frontend-8pmh.onrender.com)
+- ⚙️ Backend: [https://chat-app-backend-5hn5.onrender.com](https://chat-app-backend-5hn5.onrender.com)
 
-NODE_ENV=development
-```
+---
 
-### Build the app
+## 🛠️ Tech Stack
 
-```shell
-npm run build
-```
+### Frontend:
+- React
+- Tailwind CSS + DaisyUI
+- React Router
+- Zustand (state management)
+- Axios
+- Socket.io-client
+- React Hot Toast
 
-### Start the app
+### Backend:
+- Node.js + Express
+- MongoDB + Mongoose
+- JWT for authentication
+- bcrypt for password hashing
+- Cookie-parser
+- CORS
+- Socket.io
+- Cloudinary for image upload
 
-```shell
-npm start
-```
+---
+
+## ⚙️ Installation (Local Development)
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/sumitbahuguna04/Chat-App.git
+cd Chat-App
