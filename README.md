@@ -21,8 +21,7 @@ A full-stack real-time chat application built with the MERN stack (MongoDB, Expr
 
 ## 🔗 Live Demo
 
-- 🌐 Frontend: [https://chat-app-frontend-8pmh.onrender.com](https://chat-app-frontend-8pmh.onrender.com)
-- ⚙️ Backend: [https://chat-app-backend-5hn5.onrender.com](https://chat-app-backend-5hn5.onrender.com)
+https://chat-app-chatmeo.onrender.com/
 
 ---
 
